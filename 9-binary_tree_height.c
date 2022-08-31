@@ -10,6 +10,11 @@ size_t binary_tree_height(const binary_tree_t *tree)
 		return (0);
 	return (maxdeep(tree));
 }
+/**
+ * maxdeep - auxiliar function to calculate height of tree
+ * @tree: pointer to root of tree
+ * Return: height of tree
+ */
 int maxdeep(const binary_tree_t *tree)
 {
 	int lDepth = 0, rDepth = 0;
